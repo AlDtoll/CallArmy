@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CallArmy</string>
+    <string name="call_army">Созвать знамена!</string>
+    <string name="money">Наличные средства: </string>
+    <string name="cost_of_army">Стоимость армии:</string>
+    <string name="leave_camp">Покинуть лагерь</string>
+    <string name="in_camp">В лагере:</string>
+</resources>

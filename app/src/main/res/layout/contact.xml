@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/iconOfContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/isTrap"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/istrap" />
+
+            <ImageView
+                android:id="@+id/isBow"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/isbow" />
+
+            <ImageView
+                android:id="@+id/isFight"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/isfight" />
+
+            <ImageView
+                android:id="@+id/isMagic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ismagic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/isGiant"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/isgiant" />
+
+            <ImageView
+                android:id="@+id/isArmory"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/isarmory" />
+
+            <ImageView
+                android:id="@+id/isUsual"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/isusual" />
+
+            <ImageView
+                android:id="@+id/isFly"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/isfly" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameOfContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/phoneOfContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/DMGAndHP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
